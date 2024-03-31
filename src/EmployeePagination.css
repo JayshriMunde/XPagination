@@ -1,0 +1,65 @@
+.employee-pagination {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #28a745; /* Green color for table header */
+  color: white; /* White text color for table header */
+}
+
+td {
+  background-color: #f8f9fa; /* Background color for table cells */
+}
+
+th,
+td {
+  padding: 10px; /* Increased padding for better spacing */
+}
+
+/* Add some space between table columns */
+td:first-child,
+th:first-child {
+  padding-left: 20px;
+}
+
+td:last-child,
+th:last-child {
+  padding-right: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
